@@ -12,11 +12,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "CodeNewRoman Nerd Font Mono:size=13" };
 static const char dmenufont[]       = "CodeNewRoman Nerd Font Mono:size=13";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
+static const char col_gray1[]       = "#000000";
+static const char col_gray2[]       = "#222222";
+static const char col_gray3[]       = "#eeeeee";
 static const char col_gray4[]       = "#ffffff";
-static const char col_cyan[]        = "#007755";
+static const char col_cyan[]        = "#0055aa";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray4, col_gray1, col_gray2 },

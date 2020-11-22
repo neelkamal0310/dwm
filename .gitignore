@@ -1,0 +1,7 @@
+patches/
+*.orig
+*.rej
+*.o
+config.def.h
+config.def.h_bak
+dwm

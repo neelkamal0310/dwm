@@ -73,6 +73,8 @@ static const char *termcmd[]  = { "alacritty", NULL };
 static const char *lockscreen[]  = { "lockscreen", NULL };
 static const char *killx[]  = { "killx", NULL };
 
+#include "shiftview.c"
+
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
@@ -82,6 +84,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
+	{ MODKEY,                       XK_i,      shiftview,      {.i = +1 } },
+	{ MODKEY,                       XK_u,      shiftview,      {.i = -1 } },
 	{ MODKEY,                       XK_bracketright,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_bracketleft,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },

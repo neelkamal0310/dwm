@@ -5,3 +5,4 @@ patches/
 config.h
 config.def.h_bak
 dwm
+.ccls-cache/
